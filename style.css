@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#words {
+  width: 100%;
+  line-height: .8;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: pink;
+}
+
+#cheese {
+  font-size: 12px;
+}
+#bread {
+  font-size: 22px;
+}
+#eggs {
+  font-size: 32px;
+}
+#brunch {
+  font-size: 42px;
+}
+#cereal {
+  font-size: 52px;
+}
