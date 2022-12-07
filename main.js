@@ -52,30 +52,155 @@ async function main() {
   let fontScale = 10;
   let baseFontSize = 12;
 
-  cheese.onclick = async function() {
-    contractWithSigner.vote("cheese")
-    let voteCount = await contract.getVotes("cheese")
+  dynamic.onclick = async function() {
+    contractWithSigner.vote("dynamic")
+    let voteCount = await contract.getVotes("dynamic")
     voteCount++;
-    cheese.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+    dynamic.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
   }
 
-  cheese.onclick = async function() {
-    contractWithSigner.vote("cheese")
-    let voteCount = await contract.getVotes("cheese")
+  impactful.onclick = async function() {
+    contractWithSigner.vote("impactful")
+    let voteCount = await contract.getVotes("impactful")
     voteCount++;
-    cheese.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+    impactful.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
   }
 
+  implicit.onclick = async function() {
+    contractWithSigner.vote("implicit")
+    let voteCount = await contract.getVotes("implicit")
+    voteCount++;
+    implicit.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
 
+  nostalgic.onclick = async function() {
+    contractWithSigner.vote("nostalgic")
+    let voteCount = await contract.getVotes("nostalgic")
+    voteCount++;
+    nostalgic.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
+
+  mundane.onclick = async function() {
+    contractWithSigner.vote("mundane")
+    let voteCount = await contract.getVotes("mundane")
+    voteCount++;
+    mundane.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
+
+  inherent.onclick = async function() {
+    contractWithSigner.vote("inherent")
+    let voteCount = await contract.getVotes("inherent")
+    voteCount++;
+    inherent.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
+
+  ambiguous.onclick = async function() {
+    contractWithSigner.vote("ambiguous")
+    let voteCount = await contract.getVotes("ambiguous")
+    voteCount++;
+    ambiguous.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
+
+  pedagogy.onclick = async function() {
+    contractWithSigner.vote("pedagogy")
+    let voteCount = await contract.getVotes("pedagogy")
+    voteCount++;
+    pedagogy.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
+
+  provoke.onclick = async function() {
+    contractWithSigner.vote("provoke")
+    let voteCount = await contract.getVotes("provoke")
+    voteCount++;
+    provoke.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
+
+  deconstruct.onclick = async function() {
+    contractWithSigner.vote("deconstruct")
+    let voteCount = await contract.getVotes("deconstruct")
+    voteCount++;
+    deconstruct.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
+
+  subjective.onclick = async function() {
+    contractWithSigner.vote("subjective")
+    let voteCount = await contract.getVotes("subjective")
+    voteCount++;
+    subjective.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
+
+  evocative.onclick = async function() {
+    contractWithSigner.vote("evocative")
+    let voteCount = await contract.getVotes("evocative")
+    voteCount++;
+    evocative.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
+
+  interesting.onclick = async function() {
+    contractWithSigner.vote("interesting")
+    let voteCount = await contract.getVotes("interesting")
+    voteCount++;
+    interesting.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
+
+  contemporary.onclick = async function() {
+    contractWithSigner.vote("contemporary")
+    let voteCount = await contract.getVotes("contemporary")
+    voteCount++;
+    contemporary.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
+
+  intentional.onclick = async function() {
+    contractWithSigner.vote("intentional")
+    let voteCount = await contract.getVotes("intentional")
+    voteCount++;
+    intentional.style.fontSize = baseFontSize + (fontScale * voteCount) + "px";
+  }
 
   async function readVotes() {
-    let cheeseVotes = await contract.getVotes("cheese")
-    cheese.style.fontSize = baseFontStize + (fontScale * cheeseVotes) + "px";
+    let dynamicVotes = await contract.getVotes("dynamic")
+    dynamic.style.fontSize = baseFontStize + (fontScale * dynamicVotes) + "px";
 
-    let cheeseVotes = await contract.getVotes("cheese")
-    cheese.style.fontSize = baseFontStize + (fontScale * cheeseVotes) + "px";
+    let impactfulVotes = await contract.getVotes("impactful")
+    impactful.style.fontSize = baseFontStize + (fontScale * impactfulVotes) + "px";
 
-    let cheeseVotes = await contract.getVotes("cheese")
-    cheese.style.fontSize = baseFontStize + (fontScale * cheeseVotes) + "px";
+    let implicitVotes = await contract.getVotes("implicit")
+    implicit.style.fontSize = baseFontStize + (fontScale * implicitVotes) + "px";
+
+    let nostalgicVotes = await contract.getVotes("nostalgic")
+    nostalgic.style.fontSize = baseFontStize + (fontScale * nostalgicVotes) + "px";
+
+    let mundaneVotes = await contract.getVotes("mundane")
+    mundane.style.fontSize = baseFontStize + (fontScale * mundaneVotes) + "px";
+    
+    let inherentVotes = await contract.getVotes("inherent")
+    inherent.style.fontSize = baseFontStize + (fontScale * inherentVotes) + "px";
+
+    let ambiguousVotes = await contract.getVotes("ambiguous")
+    ambiguous.style.fontSize = baseFontStize + (fontScale * ambiguousVotes) + "px";
+
+    let pedagogyVotes = await contract.getVotes("pedagogy")
+    pedagogy.style.fontSize = baseFontStize + (fontScale * pedagogyVotes) + "px";
+
+    let provokeVotes = await contract.getVotes("provoke")
+    provoke.style.fontSize = baseFontStize + (fontScale * provokeVotes) + "px";
+
+    let deconstructVotes = await contract.getVotes("deconstruct")
+    deconstruct.style.fontSize = baseFontStize + (fontScale * deconstructVotes) + "px";
+
+    let subjectiveVotes = await contract.getVotes("subjective")
+    subjective.style.fontSize = baseFontStize + (fontScale * subjectiveVotes) + "px";
+
+    let evocativeVotes = await contract.getVotes("evocative")
+    evocative.style.fontSize = baseFontStize + (fontScale * evocativeVotes) + "px";
+
+    let interestingVotes = await contract.getVotes("interesting")
+    interesting.style.fontSize = baseFontStize + (fontScale * interestingVotes) + "px";
+
+    let contemporaryVotes = await contract.getVotes("contemporary")
+    contemporary.style.fontSize = baseFontStize + (fontScale * contemporaryVotes) + "px";
+
+    let intentionalVotes = await contract.getVotes("intentional")
+    intentional.style.fontSize = baseFontStize + (fontScale * intentionalVotes) + "px";
   }
 }
