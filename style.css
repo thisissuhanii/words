@@ -7,9 +7,9 @@ body {
 }
 
 #words {
-  width: 100%;
+  width: 80%;
   line-height: .8;
-  text-align: center;
+  align-self: center;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -18,17 +18,48 @@ body {
 }
 
 #dynamic {
-  font-size: 12px;
+  font-size: 20px; 
 }
 #impactful {
-  font-size: 22px;
+  font-size: 35px;
 }
 #implicit {
-  font-size: 32px;
+  font-size: 30px;
 }
 #nostalgic {
-  font-size: 42px;
+  font-size: 22px;
 }
 #mundane {
+  font-size: 22px;
+}
+#inherent {
+  font-size: 62px;
+}
+#ambiguous {
+  font-size: 32px;
+}
+#pedagogy {
+  font-size: 38px;
+}
+#provoke {
+  font-size: 22px;
+}
+#deconstruct {
+  font-size: 45px;
+}
+#subjective {
+  font-size: 22px;
+}
+#evocative {
+  font-size: 30px;
+}
+#interesting {
+  font-size: 30px;
+}
+#contemporary {
   font-size: 52px;
 }
+#intentional {
+  font-size: 32px;
+}
+
