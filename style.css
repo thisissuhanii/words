@@ -6,60 +6,114 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
 #words {
   width: 80%;
   line-height: .8;
-  align-self: center;
   position: absolute;
   left: 50%;
   top: 50%;
+  align-self: center;
   transform: translate(-50%, -50%);
-  background-color: pink;
+  background-color: white;
 }
 
 #dynamic {
-  font-size: 20px; 
+  font-size: 90px; 
+  background-color: white;
+  white-space: normal;
+  align-self: center;
+  position: relative;
 }
+
 #impactful {
   font-size: 35px;
+  white-space: normal;
+  position: relative;
+  align-self: center;
+  
 }
 #implicit {
-  font-size: 30px;
+  font-size: 49px;
+  white-space: normal;
+  position: relative;
+  align-self: center;
+  
 }
 #nostalgic {
-  font-size: 22px;
+  font-size: 32px;
+  white-space: normal;
+  align-self: center;
+  position: relative;
+  
 }
 #mundane {
-  font-size: 22px;
+  font-size: 52px;
+  white-space: normal;
+  align-self: center;
+  position: relative;
 }
 #inherent {
   font-size: 62px;
+  white-space: normal;
+  align-self: center;
+  position: absolute;
 }
 #ambiguous {
   font-size: 32px;
+  white-space: normal;
+  align-self: center;
+  position: relative;
+
 }
 #pedagogy {
-  font-size: 38px;
+  font-size: 80px;
+  white-space: normal;
+  align-self: end;
+  position: relative;
+
 }
 #provoke {
   font-size: 22px;
+  white-space: normal;
+  align-self: center;
+  position: absolute;
 }
 #deconstruct {
   font-size: 45px;
+  white-space: normal;
+  align-self: center;
+  position: relative;
 }
 #subjective {
   font-size: 22px;
+  white-space: normal;
+  position: relative;
 }
 #evocative {
   font-size: 30px;
+  white-space: normal;
+  align-self: center;
+  position: absolute;
 }
 #interesting {
   font-size: 30px;
+  white-space: normal;
+  align-self: center;
+  position: relative;
 }
 #contemporary {
   font-size: 52px;
+  white-space: normal;
+  align-self: center;
+  position: relative;
 }
 #intentional {
   font-size: 32px;
+  white-space: normal;
+  align-self: center;
+  position: absolute;
 }
+
+
 
